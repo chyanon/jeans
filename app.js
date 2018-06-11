@@ -35,8 +35,7 @@ function sendText (sender, text) {
   request({
     headers: {
       'Content-Type': 'application/json',
-      'Authorization': '/I/DVpOQ/ZP1aBVF1YcRbqjA9dLnY77CcFifMSc+oRd0cQLXkR8wwMIeN4Nn6KsQzyo3dpHTp0Rqh/oofQic74RqBgoUhS53oYr3f+bXcXnygU22LUvfjlhgV5AgpjNBDNbmZ+S5MJNHN2RNJvpJbgdB04t89/1O/w1cDnyilFU='
-    },
+      'Authorization': 'Bearer {/I/DVpOQ/ZP1aBVF1YcRbqjA9dLnY77CcFifMSc+oRd0cQLXkR8wwMIeN4Nn6KsQzyo3dpHTp0Rqh/oofQic74RqBgoUhS53oYr3f+bXcXnygU22LUvfjlhgV5AgpjNBDNbmZ+S5MJNHN2RNJvpJbgdB04t89/1O/w1cDnyilFU=}',
     url: 'https://api.line.me/v2/bot/message/push',
     method: 'POST',
     body: data,
